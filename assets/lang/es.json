@@ -1,0 +1,38 @@
+{
+    "nav.home": "Inicio",
+    "nav.articles": "Artículos",
+    "nav.events": "Eventos",
+    "nav.clubs": "Clubes",
+    "nav.contact": "Contacto",
+    "nav.staff": "Personal",
+
+    "hero.title": "Academia Última Luz",
+    "hero.button": "Entrar",
+
+    "contact.title": "Envía tu mensaje",
+    "contact.subtitle": "Preguntas, sugerencias u otra correspondencia para la Academia Last Light.",
+
+    "contact.name": "Nombre",
+    "contact.email": "Correo electrónico",
+    "contact.subject": "Asunto",
+    "contact.message": "Mensaje",
+
+    "contact.placeholder.name": "Tu nombre",
+    "contact.placeholder.email": "nombre@ejemplo.com",
+    "contact.placeholder.subject": "¿De qué se trata?",
+    "contact.placeholder.message": "Escribe tu mensaje...",
+
+    "contact.submit": "Enviar mensaje",
+
+    "events.newsTitle": "Noticias Semanales de la Academia",
+    "events.videoFallback": "Tu navegador no admite la etiqueta de vídeo.",
+    "events.newsCaption": "Anuncios semanales del equipo de noticias de la Academia Last Light.",
+
+    "events.upcoming": "Próximos Eventos:",
+
+    "events.orientation.title": "Orientación",
+    "events.orientation.date": "9 de agosto",
+    "events.orientation.description": "Únete a nosotros en nuestro gran salón para entrar en un nuevo mundo de posibilidades.",
+
+    "events.orientation.image": "assets/images/orientation_es.jpg"
+}

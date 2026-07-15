@@ -1,0 +1,38 @@
+{
+    "nav.home": "Home",
+    "nav.articles": "Articles",
+    "nav.events": "Events",
+    "nav.clubs": "Clubs",
+    "nav.contact": "Contact",
+    "nav.staff": "Staff",
+
+    "hero.title": "Last Light Academy",
+    "hero.button": "Dive In",
+
+    "contact.title": "Deliver Your Missive",
+    "contact.subtitle": "Questions, suggestions, or other correspondence for Last Light Academy.",
+
+    "contact.name": "Name",
+    "contact.email": "Email",
+    "contact.subject": "Subject",
+    "contact.message": "Message",
+
+    "contact.placeholder.name": "Your name",
+    "contact.placeholder.email": "name@example.com",
+    "contact.placeholder.subject": "What is this regarding?",
+    "contact.placeholder.message": "Write your message...",
+
+    "contact.submit": "Send Message",
+
+    "events.newsTitle": "Weekly Academy News",
+    "events.videoFallback": "Your browser does not support the video tag.",
+    "events.newsCaption": "Weekly announcements from Last Light Academy News Team.",
+
+    "events.upcoming": "Upcoming Events:",
+
+    "events.orientation.title": "Orientation",
+    "events.orientation.date": "August 9th",
+    "events.orientation.description": "Join us at our esteemed grand hall to enter a new world of possibility.",
+
+    "events.orientation.image": "assets/images/orientation_en.png"
+}

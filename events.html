@@ -28,17 +28,17 @@
             </div>
 
             <div class="navNormLinks">
-                <a href="index.html">Home</a>
+                <a href="index.html" data-i18n="nav.home"></a>
                 <p>|</p>
-                <a href="articles.html">Articles</a>
+                <a href="articles.html" data-i18n="nav.articles"></a>
                 <p>|</p>
-                <a href="events.html">Events</a>
+                <a href="events.html" data-i18n="nav.events"></a>
                 <p>|</p>
-                <a href="club.html">Clubs</a>
+                <a href="club.html" data-i18n="nav.clubs"></a>
                 <p>|</p>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" data-i18n="nav.contact"></a>
                 <p>|</p>
-                <a href="staff.html">Staff</a>
+                <a href="staff.html" data-i18n="nav.staff"></a>
             </div>
 
             <div class="navRight">
@@ -49,45 +49,66 @@
         </div>
 
         <!-- TIMELINE -->
+        <!-- TIMELINE -->
         <div class="newsSection">
-            <h1>Weekly Academy News</h1>
+
+            <h1 data-i18n="events.newsTitle"></h1>
 
             <video class="newsVideo" controls poster="assets/images/newsThumbnail.jpeg">
                 <source src="assets/videos/weeklyNews.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+                <span data-i18n="events.videoFallback"></span>
             </video>
 
-            <p class="newsCaption">
-                Weekly announcements from Last Light Academy News Team.
-            </p>
+            <p class="newsCaption" data-i18n="events.newsCaption"></p>
+
         </div>
 
         <section class="timelineSection">
-            <h2>Upcoming Events:</h2>
+
+            <h2 data-i18n="events.upcoming"></h2>
 
             <div class="timeline">
 
                 <div class="timelineEvent">
+
                     <div class="timelineDot"></div>
 
                     <div class="timelineContent">
-                        <img src="assets/images/orientation.png"
+
+                        <img
+                            data-i18n-src="events.orientation.image" 
+                            src="assets/images/orientation_en.png"
                             alt="New student orientation image">
 
-                        <h3>Orientation</h3>
+                        <h3 data-i18n="events.orientation.title"></h3>
 
-                        <p>August 8th</p>
+                        <p data-i18n="events.orientation.date"></p>
 
-                        <p>
-                            Join us at our esteemed grand hall to enter a new world of possibility.
-                        </p>
+                        <p data-i18n="events.orientation.description"></p>
+
                     </div>
+
                 </div>
 
                 <!-- Add future events here -->
 
             </div>
+
         </section>
+
+        <div class="languageSwitcher">
+
+            <button id="lang-en" class="langButton" aria-label="English">
+                <img src="assets/images/flags/en_us.png" alt="United States flag">
+            </button>
+
+            <button id="lang-es" class="langButton" aria-label="Español">
+                <img src="assets/images/flags/es_es.png" alt="Spanish flag">
+            </button>
+
+        </div>
+
+        <script src="assets/js/i18n.js"></script>
 
     </body>
 
